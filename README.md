@@ -65,7 +65,7 @@ When the project is set:
    ``` 
    The output should be "Connected" 
 
-   ### 4. Procede to TelegramBot and start up bot by 
+   4. Procede to TelegramBot and start up bot by 
    ```bash
    python bot.py
    ```
