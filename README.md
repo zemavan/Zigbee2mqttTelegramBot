@@ -71,7 +71,8 @@ When the project is set:
    ```
    The output should be this:                                                                                                                                                                                                                                  
     INFO:aiogram.dispatcher:Start polling
-    INFO:aiogram.dispatcher:Run polling for bot @
+    
+   INFO:aiogram.dispatcher:Run polling for bot @
 
 ## 7. Test
 When you send to your bot command 'temperature', the bot should answer with the current temperature.
