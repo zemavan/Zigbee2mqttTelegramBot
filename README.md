@@ -69,8 +69,10 @@ When the project is set:
    ```bash
    python bot.py
    ```
-   The output should be this:                                                                                                                                                                                                                                  
-    INFO:aiogram.dispatcher:Start polling
+   The output should be this: 
+
+   
+   INFO:aiogram.dispatcher:Start polling
     
    INFO:aiogram.dispatcher:Run polling for bot @
 
