@@ -29,7 +29,7 @@ python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
-## 3. ENV
+## 3. ENV (optional)
 touch .env in main directory of the project
 ```bash
 touch .env 
