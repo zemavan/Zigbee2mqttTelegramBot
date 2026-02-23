@@ -57,9 +57,9 @@ https://core.telegram.org/bots/tutorial#getting-ready
 
 ## 6. Start
 When the project is set:
-   ### 1. Check if the environment is activated.
-   ### 2. Procede to zegibee2mqtt folder and start up docker compose
-   ### 3. Procede to mqtt folder and start up mqtt by 
+   1. Check if the environment is activated.
+   2. Procede to zegibee2mqtt folder and start up docker compose
+   3. Procede to mqtt folder and start up mqtt by 
    ```bash
    python mqtt.py
    ``` 
