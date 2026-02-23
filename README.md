@@ -1,6 +1,6 @@
-#Zigbee2mqtt with telegram bot automatition
+Zigbee2mqtt with telegram bot automatition
 
-##Instalation
+Instalation
 
 ### 0. Before Start:
    - Zigbee is a lighweight communications protocol.
@@ -11,7 +11,7 @@
    - Zigbee`s goal is to be lightweight and energy-efficient. When there are no changes, the sensor wont post data.
    - The goal of this project is to understand the fundamentals of IoT development.
 
-### 0.1 Requisites
+### Requisites
 - Docker 
 - Python 3.9+  
 - Zigbee-dongle
