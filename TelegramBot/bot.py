@@ -8,12 +8,11 @@ from aiogram.filters.command import CommandStart
 from aiogram.types import Message
 from dotenv import load_dotenv
 
-# from config import TOKEN, logFilePath
 load_dotenv()
+
 TOKEN = os.getenv('TOKEN')
 logFilePath = os.getenv('logFilePath')
 logging.basicConfig(level=logging.INFO)
-# chat_id = "6962060490"
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
