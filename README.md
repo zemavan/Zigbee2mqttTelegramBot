@@ -77,7 +77,7 @@ When the project is set:
    INFO:aiogram.dispatcher:Run polling for bot @
 
 ## 7. Test
-When you send to your bot command 'temperature', the bot should answer with the current temperature.
+When you send to your bot command 'temperature', the bot should answer with the current temperature which takes place in log.txt file.
 
 
 
