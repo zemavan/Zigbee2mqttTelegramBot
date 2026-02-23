@@ -1,8 +1,6 @@
-Zigbee2mqtt with telegram bot automatition
+###                      Zigbee2mqtt with telegram bot automatition
 
-Instalation
-
-### 0. Before Start:
+### Before Start:
    - Zigbee is a lighweight communications protocol.
    - MQTT is a machine to machine network protocol for messages.
 
