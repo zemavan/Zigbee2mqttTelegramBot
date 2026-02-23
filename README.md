@@ -22,20 +22,22 @@
 ### 1. Clone repository
 ```bash
 git clone https://github.com/zemavan/Zigbee2mqttTelegramBot.git
+```
+
 
 ## 2. Setup the virtul environment
 ```bash
 python -m venv venv
-source venv/bin/activate ```
+source venv/bin/activate
 pip install -r requirements.txt
-
+```
 ## 3. ENV
 touch .env in main directory of the project
 ```bash
 touch .env 
 > TOKEN=YourTelegramBotToken
 > logFilePath=PathToLogTxtFile
-
+```
 ## 4. GetStarted
     1. cd zigbee2mqtt
     2. *Connect the Dongle
@@ -65,7 +67,8 @@ When the project is set:
         INFO:aiogram.dispatcher:Start polling
         INFO:aiogram.dispatcher:Run polling for bot @
 
-## 7. Tests and Precaucions:
+## 7. Test
+When you send to your bot command 'temperature', the bot should answer with the current temperature.
 
 
 
