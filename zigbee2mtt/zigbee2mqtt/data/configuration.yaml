@@ -1,0 +1,49 @@
+version: 5
+mqtt:
+  base_topic: zigbee2mqtt
+  server: mqtt://mosquitto:1883
+serial:
+  port: /dev/ttyACM0
+  adapter: zstack
+  baudrate: 115200
+  rtscts: false
+advanced:
+  log_level: info
+  channel: 11
+  network_key:
+    - 172
+    - 241
+    - 220
+    - 28
+    - 29
+    - 46
+    - 56
+    - 174
+    - 19
+    - 122
+    - 182
+    - 240
+    - 63
+    - 173
+    - 212
+    - 117
+  pan_id: 867
+  ext_pan_id:
+    - 141
+    - 221
+    - 11
+    - 249
+    - 61
+    - 68
+    - 198
+    - 26
+frontend:
+  enabled: true
+  port: 8080
+homeassistant:
+  enabled: true
+devices:
+  '0x7c31fafffef0f856':
+    friendly_name: tester
+  '0xe456acfffe56f6ad':
+    friendly_name: fridge
