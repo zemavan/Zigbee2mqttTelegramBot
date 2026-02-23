@@ -54,16 +54,22 @@ Zigbee2mqtt pushes the messages on topic in json file format, so we parse and sa
 ## 5. Telegram bot
 https://core.telegram.org/bots/tutorial#getting-ready
 
-    1. Provide telegram token into .env file
-    2. The code for the bot in TelegramBot/bot.py has some functions to test api.
+   1. Provide telegram token into .env file
+   2. The code for the bot in TelegramBot/bot.py has some functions to test api.
+
 ## 6. Start
 When the project is set:
-    ### 1. Check if the environment is activated.
-    ### 2. Procede to zegibee2mqtt folder and start up docker compose
-    ### 3. Procede to mqtt folder and start up mqtt by ```bash python mqtt.py 
-       The output should be "Connected"
-    ### 4. Procede to TelegramBot and start up bot by ```bash python bot.py
-       The output should be this:
+   ### 1. Check if the environment is activated.
+   ### 2. Procede to zegibee2mqtt folder and start up docker compose
+   ### 3. Procede to mqtt folder and start up mqtt by 
+   ```bash python mqtt.py
+   ``` 
+   The output should be "Connected" 
+
+   ### 4. Procede to TelegramBot and start up bot by 
+   ```bash python bot.py
+   ```
+   The output should be this:
         INFO:aiogram.dispatcher:Start polling
         INFO:aiogram.dispatcher:Run polling for bot @
 
