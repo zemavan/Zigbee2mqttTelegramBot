@@ -1,13 +1,5 @@
 .env
-*.env
-.env.*
 logs/
 venv/
 __pycache__/
-zigbee2mqtt/data/
 zigbee2mqtt/
-zigbee2mqtt/config/
-zigbee2mqtt/data/
-zigbee2mqtt/state.json
-zigbee2mqtt/database.db
-zigbee2mqtt/config/.storage/auth
