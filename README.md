@@ -60,12 +60,14 @@ When the project is set:
    ### 1. Check if the environment is activated.
    ### 2. Procede to zegibee2mqtt folder and start up docker compose
    ### 3. Procede to mqtt folder and start up mqtt by 
-   ```bash python mqtt.py
+   ```bash
+      python mqtt.py
    ``` 
    The output should be "Connected" 
 
    ### 4. Procede to TelegramBot and start up bot by 
-   ```bash python bot.py
+   ```bash
+      python bot.py
    ```
    The output should be this:
         INFO:aiogram.dispatcher:Start polling
