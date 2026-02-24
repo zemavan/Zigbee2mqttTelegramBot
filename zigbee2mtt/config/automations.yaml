@@ -1,0 +1,22 @@
+- id: '1771517682591'
+  alias: botNT
+  description: ''
+  triggers:
+  - type: temperature
+    device_id: 78f9dda830179b073f79ae056c9bf4b4
+    entity_id: f0454e1f82d7ce78ad814d67622a7922
+    domain: sensor
+    trigger: device
+    below: 20
+    for:
+      hours: 0
+      minutes: 0
+      seconds: 5
+  conditions: []
+  actions:
+  - action: telegram_bot.send_message
+    metadata: {}
+    data:
+      message: test
+      parse_mode: plain_text
+  mode: single

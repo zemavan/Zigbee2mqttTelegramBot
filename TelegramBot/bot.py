@@ -11,7 +11,8 @@ from dotenv import load_dotenv
 # from config import TOKEN, logFilePath
 load_dotenv()
 TOKEN = os.getenv('TOKEN')
-logFilePath = os.getenv('logFilePath')
+logFilePath1 = os.getenv('logFilePath1')
+logFilePath2 = os.getenv('logFilePath2')
 logging.basicConfig(level=logging.INFO)
 # chat_id = "6962060490"
 
@@ -23,9 +24,15 @@ async def cmd_start(message: types.Message):
     name = message.from_user.username
     await message.answer(f"Hello {name}!")
 
-@dp.message(F.text == 'temperature')
+@dp.message(F.text == 'temp tester' )
 async def temprt(message: Message):
-    data = open(logFilePath, 'r')
+    data = open(logFilePath1, 'r')
+    logs = data.read()
+    await message.answer(str(logs))
+
+@dp.message(F.text == 'temp fridge' )
+async def temprt(message: Message):
+    data = open(logFilePath2, 'r')
     logs = data.read()
     await message.answer(str(logs))
 
