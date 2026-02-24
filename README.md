@@ -41,8 +41,9 @@ touch .env
    2. *Connect the Dongle to machine*
    3. docker compose up
    4. Pass the Onboarding for zigbee2mqtt on port 8082
+      
       https://www.zigbee2mqtt.io/guide/getting-started/#installation
-   5. Connect zigbee sensors
+   6. Connect zigbee sensors
 
 By default the topic is zigbee2mqtt, if devices name is fridge the topic will be zigbee2mqtt/fridge
 You should indicate it in the mqtt/mqtt.py
